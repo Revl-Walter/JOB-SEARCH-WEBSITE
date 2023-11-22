@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Gig</title> 
+</head>
+<body>
+<h1>Welcome to Student Gig Find your Gig!</h1>
+<p>We'll need a few details about yourself to enable us find you your gigs</p>
+<form>
+    <fieldset>
+        <legend>Enter your Name</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Please enter your name">
+    </fieldset>
+    
+    <fieldset>
+        <legend>Enter your Email</legend>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Please enter your email">
+    </fieldset>  
+    <fieldset>
+        <legend>What kinds of gigs do you want to do?</legend>
+        
+        <div class="checkbox-group">
+            <label for="checkbox1">
+                <input type="checkbox" id="checkbox1" name="jobType" value="IT">
+                IT
+            </label>
+            <label for="checkbox2">
+                <input type="checkbox" id="checkbox2" name="jobType" value="Laundry">
+                Laundry
+            </label>
+            <label for="checkbox3">
+                <input type="checkbox" id="checkbox3" name="jobType" value="Assignments">
+                Assignments
+            </label>
+            <label for="checkbox4">
+                <input type="checkbox" id="checkbox4" name="jobType" value="Deliveries">
+                Deliveries
+            </label>
+            <label for="checkbox5">
+                <input type="checkbox" id="checkbox5" name="jobType" value="Errands">
+                Errands
+            </label>
+        </div>
+    </fieldset>
+    
+</form>
+</body>
+</html>
